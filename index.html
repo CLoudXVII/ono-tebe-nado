@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="styles/global.css">
@@ -12,24 +12,29 @@
   <body>
 
     <header class="header">
-      <nav>
-        <ul class="menu">
-          <li class="menu__item menu__item_active no-list-marker">главная</li>
-          <li class="menu__item text-underline-offset">посмотреть лоты</li>
-          <li class="menu__item text-underline-offset">об аукционе</li>
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-list-item no-list-marker">
+            <a class="header__menu-list-item_active" href="#">главная</a>
+          </li>
+          <li class="header__menu-list-item text-underline-offset">
+            <a class="text-underline-offset" href="#">посмотреть лоты</a>
+          </li>
+          <li class="header__menu-list-item text-underline-offset">
+            <a class="text-underline-offset" href="#">об аукционе</a>
+          </li>
         </ul>
       </nav>
-      <a href="#0" class="logo">
-        <img src="/images/logo-black.svg" alt="Логотип сайта оно тебе надо" class="logo__image">
+      <a href="#0" class="header__logo">
+        <img src="/images/logo-black.svg" alt="Логотип сайта оно тебе надо" class="header__logo-image">
       </a>
-      <address class="header__contacts">
-          <address class="address">
-            <a class="text-underline-offset" href="tel:+99995555555">+9 999 555 5555</a><br>
-            <a class="text-underline-offset" href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
-            наб. Принсенграхт 263-<br>265, Амстердам
-          </address>
-        </ul>
-      </address>
+      <div class="header__contacts">
+        <address class="address">
+          <a class="text-underline-offset" href="tel:+99995555555">+9 999 555 5555</a><br>
+          <a class="text-underline-offset" href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
+          наб. Принсенграхт 263-<br>265, Амстердам
+        </address>
+      </div>
     </header>
 
     <main>
@@ -103,7 +108,31 @@
     </main>
 
     <footer class="footer">
-
+      <div class="footer__contacts">
+        <address class="address">
+          <a class="text-underline-offset" href="tel:+99995555555">+9 999 555 5555</a><br>
+          <a class="text-underline-offset" href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
+          наб. Принсенграхт 263-<br>265, Амстердам
+        </address>
+      </div>
+      <nav class="footer__menu">
+        <ul class="footer__menu-list">
+          <li class="footer__menu-list-item">
+            <a class="text-underline-offset" href="#">главная</a>
+          </li>
+          <li class="footer__menu-list-item">
+            <a class="text-underline-offset" href="#">посмотреть лоты</a>
+          </li>
+          <li class="footer__menu-list-item">
+            <a class="text-underline-offset" href="#">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer__social-list">
+        <img class="footer__social-list-item" src="/images/yt.svg" alt="Ссылка на Youtube">
+        <img class="footer__social-list-item" src="/images/vk.svg" alt="Ссылка на ВК">
+        <img class="footer__social-list-item" src="/images/pinterest.svg" alt="Ссылка на Pinterest">
+      </div>
     </footer>
 
   </body>
