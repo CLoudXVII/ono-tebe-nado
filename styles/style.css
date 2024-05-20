@@ -73,8 +73,6 @@
 }
 
 .cover__title {
-  display: flex;
-  flex-direction: column;
   gap: 9px;
   color: white;
   font-weight: bold;
@@ -83,16 +81,18 @@
 }
 
 .aligned-text {
+  display: block;
   letter-spacing: 0.3em;
 }
 
 .aligned-text_center {
-  align-self: center;
+  text-align: center;
+  line-height: 135%;
 }
 
 .aligned-text_right {
-  align-self: flex-end;
-  line-height: 1.05;
+  text-align: right;
+  line-height: 105%;
 }
 
 .letter-spacing-extended {
